@@ -7,7 +7,9 @@ Release:	1
 License:	GPL (?)
 Group:		Applications/Dictionaries
 Source0:	http://vietlug.sourceforge.net/download/emacs/%{dictname}.index
+# Source0-md5:	bf0436710baba2be46e6d8177409cac7
 Source1:	http://vietlug.sourceforge.net/download/emacs/%{dictname}.telex.dz
+# Source1-md5:	4a4a9f37916d3db0d4ca3ab0e7381927
 URL:		http://vietlug.sourceforge.net/
 Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
