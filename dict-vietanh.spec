@@ -20,7 +20,7 @@ Vietnamese-English dictionary for dictd.
 S³ownik wietnamsko-angielski dla dictd.
 
 %prep
-%setup -C
+%setup -q -T -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
