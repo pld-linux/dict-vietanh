@@ -19,6 +19,9 @@ Vietnamese-English dictionary for dictd.
 %description -l pl
 S³ownik wietnamsko-angielski dla dictd.
 
+%prep
+%setup -C
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_datadir}/dictd,%{_sysconfdir}/dictd}
