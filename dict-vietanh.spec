@@ -3,7 +3,7 @@ Summary:	Vietnamese-English dictionary for dictd
 Summary(pl):	S³ownik wietnamsko-angielski dla dictd
 Name:		dict-%{dictname}
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL (?)
 Group:		Applications/Dictionaries
 Source0:	http://vietlug.sourceforge.net/download/emacs/%{dictname}.index
