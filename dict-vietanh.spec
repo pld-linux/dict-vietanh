@@ -11,8 +11,8 @@ Source0:	http://vietlug.sourceforge.net/download/emacs/%{dictname}.index
 Source1:	http://vietlug.sourceforge.net/download/emacs/%{dictname}.telex.dz
 # Source1-md5:	4a4a9f37916d3db0d4ca3ab0e7381927
 URL:		http://vietlug.sourceforge.net/
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -52,5 +52,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}.dictconf
 %{_datadir}/dictd/%{dictname}.*
