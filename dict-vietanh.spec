@@ -1,6 +1,6 @@
 %define		dictname vietanh
 Summary:	Vietnamese-English dictionary for dictd
-Summary(pl.UTF-8):   Słownik wietnamsko-angielski dla dictd
+Summary(pl.UTF-8):	Słownik wietnamsko-angielski dla dictd
 Name:		dict-%{dictname}
 Version:	1.0
 Release:	3
